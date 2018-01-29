@@ -10,6 +10,7 @@ h1 {
   font-size: 29px;
 }
 
+/*Div surrounding h1 header*/
 #titleHead{
   text-align: center;
 }
@@ -19,6 +20,7 @@ p {
   margin-top: 35px;
 }
 
+/*Next 3 styles change background color of section title boxes*/
 #chicken {
   background-color: #e09b70;
 }
@@ -32,7 +34,7 @@ p {
   background-color: #d8cd63;
 }
 
-.boxHeader {
+.sectionTitle {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -53,9 +55,15 @@ p {
   position: relative;
   border: 1px solid black;
   margin-bottom: 15px;
-  height: 185px;
+  /*height: 185px;*/
   background-color: #d6d5d1;
   margin-right: auto;
+  margin-left: 10px;
+  display: block;
+  overflow: auto;
+}
+
+.menuItem > p {
   margin-left: 10px;
 }
 
